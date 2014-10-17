@@ -25,7 +25,7 @@ define contact{
         contact_name                    nagiosadmin     ; Short name of user
         use                             generic-contact     ; Inherit default values from generic-contact template (defined above)
         alias                           Nagios Admin        ; Full name of user
-        email                           hengtianyun@hengtiansoft.com    ; <<***** CHANGE THIS TO YOUR EMAIL ADDRESS ******
+        email                           admin@admin.com    ; <<***** CHANGE THIS TO YOUR EMAIL ADDRESS ******
         }
 ```
 and then we need add the contact into the contacts group like this:
